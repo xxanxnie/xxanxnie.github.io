@@ -12,97 +12,55 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Aug 2024 — Present",
-    currentPosition: "Founding Designer & Head of Product Design",
-    place: "Stealth AI Startup",
+    timeline: "Aug 2023 — Dec 2023",
+    currentPosition: "Software Engineering Intern",
+    place: "MVP Health Care",
     previousPositions: [""],
     description:
-      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
+      "Developed an interactive Choropleth map to visualize pharmacy deserts in New York State. Improved medical adherence prediction accuracy by 15% through machine learning models. Integrated a digital twin of healthcare infrastructure to simulate pharmacy access patterns. Worked with a cross-functional team to clean datasets, ensuring accurate pharmacy accessibility metrics.",
     skills: [
-      "Brand Identity",
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
-    ],
-  },
-  {
-    timeline: "Mar 2024 — Present",
-    currentPosition: "Head of Product Design",
-    place: "Vela Exchange",
-    previousPositions: ["Designer and Front-end Developer"],
-    description:
-      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
-    ],
-  },
-  {
-    timeline: "Feb 2022 — Presents",
-    currentPosition: "Co-founder, Designer & Developer",
-    place: "Swoop Exchange",
-    previousPositions: [""],
-    description:
-      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
-    skills: [
-      "Typescript",
-      "JavaScript",
-      "CSS",
-      "Tailwind CSS",
-      "MUI",
-      "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
-    ],
-  },
-  {
-    timeline: "Aug 2016 — Mar 2024",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
-    previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
-    ],
-    description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
-    skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
-    ],
-  },
-  {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
-    previousPositions: [""],
-    description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
-    skills: [
+      "Overleaf",
+      "React",
+      "GIS",
+      "Scikit-learn",
       "SQL",
-      "Administration",
-      "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
+      "Agil Development",
+      "Python",
+      "Data Analysis",
+    ],
+  },
+  {
+    timeline: "May 2023 — Aug 2023",
+    currentPosition: "Systems Analysis and Exploitation Intern",
+    place: "Assured Information Security",
+    previousPositions: [""],
+    description:
+      "Performed efficiency assessments on a cloud hypervisor forensics platform, leading to a 20% improvement in analysis time. Crafted a radio string injection attack script for an open-source RF and reverse engineering framework using C++. Developed comprehensive test scripts to evaluate the framework’s functionality and enhance its CI/CD capabilities.",
+    skills: [
+      "Linux",
+      "Reverse Engineering",
+      "Python",
+      "Jenkins",
+      "Unit Testing",
+      "Hypervisors Forensics",
+      "Cloud Computing"
+    ],
+  },
+  {
+    timeline: "May 2022 — Aug 2022",
+    currentPosition: "Application Engineering Intern",
+    place: "Xallent Inc.",
+    previousPositions: [""],
+    description:
+      "Engineered software to extract electrical and mechanical properties, resulting in a 40% improvement in data accuracy. Designed and implemented PID control and feedback routines to enhance probe-device interaction. Developed a Python-based data acquisition system for real-time collection, processing, and visualization of measured data.",
+    skills: [
+      "Python",
+      "Matlab",
+      "LabVIEW",
+      "SQL",
+      "Plotly",
+      "RTOS",
+      "C++"
     ],
   },
 ];
@@ -148,18 +106,18 @@ export default function ExpCard() {
         ))}
       </>
       <div className="lg:px-12 mt-12">
-        <a
-          href="mailto:alexander@meikopoulos.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center font-medium leading-tight text-foreground group"
-        >
-          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            Reach out for Full Resume
-          </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
-        </a>
-      </div>
+      <a
+        href="/xu_resume.pdf" // Link to your resume file
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center font-medium leading-tight text-foreground group"
+      >
+        <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
+          View Full Résumé
+        </span>
+        <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
+      </a>
+    </div>
     </section>
   );
 }

@@ -1,5 +1,4 @@
-"use client";
-/* eslint-disable */
+"use client"
 
 export default function About() {
   return (
@@ -11,45 +10,27 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Throughout my journey from coding to design, I've been guided by a
-          simple belief:{" "}
-          <span className="text-white">
-            technology should feel natural and intuitive.
-          </span>{" "}
-          At the crossroads of AI, Web3, and Finance, I focus on creating user
-          experiences that make complex ideas accessible.
-        </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-          Currently, I'm leading product design at a stealth AI startup that's
-          rethinking how we interact with money. I'm also steering the design
-          team at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://vela.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Vela Exchange
+          I’m currently a first-year graduate student at {" "}
+          <a href="https://www.engineering.columbia.edu/" className="text-black dark:text-white">
+            Columbia University
           </a>
-          , a decentralized platform for perpetual trading. As a co-founder,
-          designer, and developer at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://swoop.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Swoop Exchange
+          , pursuing a master’s degree in Computer Science. I earned my bachelor’s degree in Computer Systems Engineering from {" "}
+          <a href="https://eng.rpi.edu/" className="text-black dark:text-white">
+            Rensselaer Polytechnic Institute
           </a>
-          , I've helped build a meta-aggregation engine used daily by thousands
-          of users.
+          , where I developed a strong foundation in software development, system architecture, and data-driven solutions. I’m a software engineer with a passion for building intuitive and scalable applications.
         </p>
+
         <p className="text-start text-muted-foreground lg:px-6">
-          Across all the applications I've been involved with, I've had the
-          privilege to contribute in facilitating billions in transaction
-          volume. I believe in making technology feel human—designing
-          applications and experiences that are seamless extensions of
-          ourselves, serving real needs with simplicity and clarity.
+          My goal is to craft technology that solves real-world problems while delivering seamless user experiences. I’m particularly interested in {" "}
+          <span className="text-black dark:text-white">full-stack development</span>, {" "}
+          <span className="text-black dark:text-white">UI/UX design</span>, 
+          and <span className="text-black dark:text-white">cloud computing</span>, and I aim to use my skills to create solutions that are both powerful and accessible.
+        </p>
+
+        <p className="text-start text-muted-foreground lg:px-6">
+          <span className="text-black dark:text-white">When I’m not coding</span>
+          , you’ll probably find me on the badminton court, art crafting, or exploring new ideas through music, side projects, and creative problem-solving.
         </p>
       </div>
     </section>

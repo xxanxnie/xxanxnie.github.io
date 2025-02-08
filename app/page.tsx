@@ -31,11 +31,14 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.ico" />
         <style jsx global>{`
           body {
             font-family: "${inter.style.fontFamily}";
           }
         `}</style>
+
+
       </Head>
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div ref={auraRef} className="mouse-aura" />

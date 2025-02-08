@@ -7,11 +7,7 @@ export default function Footer() {
         <p className="text-sm text-start text-muted-foreground">
           Based on{" "}
           <a className="text-foreground" href="https://brittanychiang.com">
-            Brittany Chiang&#39;s website
-          </a>{" "}
-          (they awesome). Coded in{" "}
-          <a className="text-foreground" href="https://code.visualstudio.com/">
-            Visual Studio Code.
+          Alexander Meikopoulos&#39;s website.
           </a>{" "}
           Built with{" "}
           <a className="text-foreground" href="https://nextjs.org/">
